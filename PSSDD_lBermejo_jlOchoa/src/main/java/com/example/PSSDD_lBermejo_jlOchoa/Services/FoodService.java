@@ -1,3 +1,13 @@
+package com.example.PSSDD_lBermejo_jlOchoa.Services;
+
+import com.example.PSSDD_lBermejo_jlOchoa.Entities.Food;
+import com.example.PSSDD_lBermejo_jlOchoa.Repositories.FoodRepository;
+import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.*;
+
 @Service
 public class FoodService {
 
